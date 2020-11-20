@@ -163,9 +163,22 @@ h6 {
 }
 
 .title {
-    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
     text-align: center;
     align-content: center;
+    font: Roboto;
+}
+
+.title img {
+    width: 80px;
+    height: 80px;
+    font: 'Helvetica Neue';
+}
+
+.subtitle {
+    color: var(--clr-primary-1);
 }
 
 .underline {
@@ -212,7 +225,12 @@ h6 {
 
 .video-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.video-container a {
+    color: var(--clr-primary-5);
 }
 
 .img-container {
