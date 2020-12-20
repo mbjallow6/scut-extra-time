@@ -1,13 +1,6 @@
-// import team1 from './video/team1.mp4';
-// import team2 from './video/team2.mp4';
-// import team3 from './video/team3.mp4';
-// import team4 from './video/team4.mp4';
-// import team5 from './video/team5.mp4';
-// import team6 from './video/team6.mp4';
 export default [{
         id: 1,
         team: 'TEAM #1',
-        // video: team1,
         vsr1: "https://www.zhihu.com/zvideo/1311056303478390784",
         vsr2: "https://youtu.be/Alx3AEKcYEI",
         th: "https://i.ibb.co/g9JWVNM/th1.png",
@@ -20,7 +13,6 @@ export default [{
     {
         id: 2,
         team: 'TEAM #2',
-        // video: team2,
         vsr1: "https://www.zhihu.com/zvideo/1311059193302806528",
         vsr2: "https://youtu.be/Su60Ursxczo",
         th: "https://i.ibb.co/GR5BVKD/th2.png",
@@ -33,7 +25,6 @@ export default [{
     {
         id: 3,
         team: 'TEAM #3',
-        // video: team3,
         vsr1: "https://www.zhihu.com/zvideo/1311059542604980224",
         vsr2: "https://youtu.be/PXANtAriBa0",
         th: "https://i.ibb.co/3Fgddtc/th3.png",
@@ -45,7 +36,6 @@ export default [{
     {
         id: 4,
         team: 'TEAM #4',
-        // video: team4,
         vsr1: "https://www.zhihu.com/zvideo/1311059949192015872",
         vsr2: "https://youtu.be/gVkSllLvzro",
         th: "https://i.ibb.co/cQvpghP/th4.png",
@@ -58,7 +48,7 @@ export default [{
     {
         id: 5,
         team: 'TEAM #5',
-        // video: team5,
+
         vsr1: "https://www.zhihu.com/zvideo/1311060169112014848",
         vsr2: "https://youtu.be/cZwWI7ujjjI",
         th: "https://i.ibb.co/8Py2jJY/th5.png",
@@ -71,7 +61,6 @@ export default [{
     {
         id: 6,
         team: 'TEAM #6',
-        // video: team6,
         vsr1: "https://www.zhihu.com/zvideo/1311060335177084928",
         vsr2: "https://youtu.be/ZjRRptidYJ0",
         th: "https://i.ibb.co/vwtXtnJ/th6.png",

@@ -149,7 +149,7 @@ h6 {
 
 .section {
     width: 90vw;
-    margin: 5rem auto;
+    margin: 10px auto;
     max-width: var(--max-width);
     display: grid;
     grid-template-areas: 'header header header' 'left main main' 'photo photo photo' 'names names names' 'major major major';
@@ -171,28 +171,28 @@ h6 {
     font: Roboto;
 }
 
-.title img {
-    width: 80px;
-    height: 80px;
-    font: 'Helvetica Neue';
-}
-
 .subtitle {
+    display: flex;
+    flex-direction: column;
     color: var(--clr-primary-1);
+    margin: 0 0 0 0;
+    text-align: center;
+    align-content: center;
+    font: Roboto;
 }
 
 .underline {
     width: 18rem;
     height: 0.25rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background: var(--clr-primary-5);
     margin-left: auto;
     margin-right: auto;
 }
 
 
-/* job center */
+/* team center */
 
 .team-btn {
     background: transparent;
